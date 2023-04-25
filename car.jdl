@@ -1,0 +1,14 @@
+
+
+entity Car {
+	model String maxlength(32),
+    type CarType,
+    serialNumber String unique maxlength(32),
+    active Boolean,
+    color String maxlength(32),
+    carYear Integer
+}
+
+enum CarType {
+	SEDAN, PICK_UP, SUV, HATCHBACK
+}

@@ -1,0 +1,6 @@
+id;model;type;serial_number;active;color;car_year
+1;BMW M3;SEDAN;BMW-M3-ee20as;true;Blue;2015
+2;Nissan GTR;SEDAN;GTR-ee22;true;Red;2022
+3;Lexus;SUV;LEXUS-22R;true;White;2010
+4;Audi;HATCHBACK;R25;true;Red;2017
+5;Ford;PICK_UP;F34-Up;true;Black;2000

@@ -1,0 +1,47 @@
+{
+  "applications": "*",
+  "changelogDate": "20230417130038",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "car",
+  "fields": [
+    {
+      "fieldName": "model",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "32"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "CarType",
+      "fieldValues": "SEDAN,PICK_UP,SUV,HATCHBACK"
+    },
+    {
+      "fieldName": "serialNumber",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique", "maxlength"],
+      "fieldValidateRulesMaxlength": "32"
+    },
+    {
+      "fieldName": "active",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "color",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "32"
+    },
+    {
+      "fieldName": "carYear",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Car",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
